@@ -1,0 +1,62 @@
+.photo{
+    position:inline-block;
+    float:left;
+    margin:5px;
+    width:70%;
+    text-align:justify;
+}
+.About{
+    display:inline-block;
+    float:right;
+    margin:5px;
+    width:70%;
+    text-align:justify;
+}
+.skills{
+    position:inline-block;
+    float:left;
+    margin:5px;
+    width:70%;
+    text-align:justify;
+}
+.certification{
+    position:inline-block;
+    float:right;
+    margin:5px;
+    width:70%;
+    text-align:justify;
+}
+.project{
+    position:inline-block;
+    float:left;
+    margin:5px;
+    width:70%;
+    text-align:justify;
+}
+.contest{
+    position:inline-block;
+    float:right;
+    margin:5px;
+    width:70%;
+    text-align:justify;
+}
+.About {
+    display:inline-block;
+    border-style:none;
+    width:10%;
+    height:200px;
+    margin:10px 10px 50px 5%;
+    border-radius:10px;
+}
+ 
+*{
+    background-color:#acedf3;
+}
+.contact{
+    position:inline-block;
+    float:left;
+    margin:5px;
+    width:70%;
+    text-align:justify;
+}
+
