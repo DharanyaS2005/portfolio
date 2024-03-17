@@ -1,62 +1,187 @@
-.photo{
-    position:inline-block;
-    float:left;
-    margin:5px;
-    width:70%;
-    text-align:justify;
+#header{
+    display: flex;
+    align-items: center;
+    justify-content:flex-end;
+    padding: 20px 80px;
+    background-color: rgb(252, 162, 180);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.06);
+    z-index: 999;
+    position: sticky;
+    top: 0;
+    left: 0;
 }
-.About{
-    display:inline-block;
-    float:right;
-    margin:5px;
-    width:70%;
-    text-align:justify;
+#navbar{
+    display:flex;
+    align-items: center;
+    justify-content: center;
 }
-.skills{
-    position:inline-block;
-    float:left;
-    margin:5px;
-    width:70%;
-    text-align:justify;
+#navbar li{
+    list-style:none;
+    padding:0 20px;
+    position: relative;
 }
-.certification{
-    position:inline-block;
-    float:right;
-    margin:5px;
-    width:70%;
-    text-align:justify;
+#navbar li a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: black;
+    transition: 0.3s ease;
+    cursor: pointer;
 }
-.project{
-    position:inline-block;
-    float:left;
-    margin:5px;
-    width:70%;
-    text-align:justify;
+
+
+#navbar li a.active::after,
+#navbar li a:hover::after{
+    content: "";
+    width: 30%;
+    height: 2px;
+    background-color:rgb(15, 15, 15) ;
+    position:absolute;
+    bottom:-4px;
+    left:20px;
 }
-.contest{
-    position:inline-block;
-    float:right;
-    margin:5px;
-    width:70%;
-    text-align:justify;
+#home{
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    justify-content:space-between;
+    flex-wrap: wrap;
+    padding:50px 100px;
+    padding-top: 60px;
 }
-.About {
-    display:inline-block;
-    border-style:none;
-    width:10%;
-    height:200px;
-    margin:10px 10px 50px 5%;
-    border-radius:10px;
+.fe{
+    text-align: center;
 }
- 
-*{
-    background-color:#acedf3;
+h2{
+    font-size: 25px;
 }
-.contact{
-    position:inline-block;
-    float:left;
-    margin:5px;
-    width:70%;
-    text-align:justify;
+h1{
+    font-size: 30px;
+}
+
+#about{
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    justify-content:space-between;
+    flex-wrap: wrap;
+    padding:50px 100px;
+    padding-top: 200px;
+    padding-bottom: 100px;
+}
+.abo {
+    flex: 1; /* Distribute equal space among child elements */
+    margin-right: 20px; /* Add some spacing between elements */
+}
+
+.abo h1, .abo h3 {
+    max-width: 100%; /* Allow text to wrap within its container */
+}
+
+.abo img {
+    height:220px;
+    max-width: 100%; /* Ensure images don't exceed their container's width */
+    margin-left: 130px;
+}
+#Skill h1{
+    text-align: center;
+}
+#Skill{
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+.skill{
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding:40px 80px;
+
+}
+.sk{
+    width:180px;
+    text-align: center;
+    padding: 25px 15px;
+    box-shadow: 20px 20px 34px rgba(1,1,1,0.5);
+    border:1px solid #a1d3a8;
+    border-radius:4px;
+    margin:15px 0;
+}
+.sk:hover{
+    box-shadow: 10px 10px 54px rgb(19, 18, 31);
+}
+#certify h1{
+    text-align: center;
+}
+#certify{
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+.cer{
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding:40px 200px;
+
+}
+.ce img{
+    width:100%;
+    border-radius: 20px;
+    margin-bottom: 120px;
+
+}
+.ce{
+    width:180px;
+    text-align: center;
+    padding: 25px 15px;
+    box-shadow: 20px 20px 34px rgba(1,1,1,0.5);
+    border:1px solid #a1d3a8;
+    border-radius:4px;
+    margin:15px 0;
+}
+.ce:hover{
+    box-shadow: 10px 10px 54px rgb(19, 18, 31);
+}
+#project h1{
+    text-align: center;
+}
+#project{
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+.proj{
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    justify-content:space-between;
+    flex-wrap: wrap;
+    padding:50px 100px;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+.pro {
+    flex: 1; /* Distribute equal space among child elements */
+    margin-right: 20px; /* Add some spacing between elements */
+}
+
+.pro h2, .pro h3 {
+    max-width: 100%; /* Allow text to wrap within its container */
+}
+
+.pro img {
+    height:220px;
+    max-width: 100%; /* Ensure images don't exceed their container's width */
+    margin-left: 220px;
+}
+#contact h1{
+    text-align: center;
+}
+#contact{
+    padding:50px 100px;
+    padding-top: 100px;
+    padding-bottom: 50px;
 }
 
